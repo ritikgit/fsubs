@@ -5,7 +5,7 @@ class Config():
   if ENV:
     BOT_TOKEN = os.environ.get("889717984:AAEOFn6fDMNEY68ChA8Hx1eMpQVPCWuDSO0", None)
     DATABASE_URL = os.environ.get("postgres://nllkrhwbzjsaio:721c70c346a29d1ec14769b6a8b16db81e4e861f94e66612f1b410969a6b8f38@ec2-23-22-191-232.compute-1.amazonaws.com:5432/de7p1bsrglg5j7", None)
-    APP_ID = os.environ.get("938778", 6)
+    APP_ID = os.environ.get(938778, 6)
     API_HASH = os.environ.get("903ac837a4987887dbdc8185ac9da008", None)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
     SUDO_USERS.append(855811628)
